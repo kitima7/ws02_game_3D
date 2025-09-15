@@ -1,0 +1,19 @@
+# Godot 4
+.godot/
+
+# Godot 3 (บางโปรเจกต์ยังมี .import)
+.import/
+
+# Logs ไม่จำเป็น
+logs/
+
+# Export folder (เวลาสร้าง build จะไปอยู่ที่นี่)
+.export/
+
+# Auto-save backup
+*.tscn-*
+*.tres-*
+
+# OS files
+.DS_Store
+Thumbs.db

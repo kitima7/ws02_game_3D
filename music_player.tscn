@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c0kh7wpxw67op"]
+
+[ext_resource type="AudioStream" uid="uid://cxo400nlw7k87" path="res://New_Player_Monster/StockTune-Clumsy Cats Chase Chaos_1757828695.mp3" id="1_fvyft"]
+
+[node name="MusicPlayer" type="AudioStreamPlayer3D"]
+stream = ExtResource("1_fvyft")
+autoplay = true

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://d24184rorwlar"]
+
+[ext_resource type="PackedScene" uid="uid://d0675ft6cogcn" path="res://New_Player_Monster/Cat.glb" id="1_oeecj"]
+
+[node name="PlayerCat" instance=ExtResource("1_oeecj")]
+
+[node name="Skeleton3D" parent="RootNode/CharacterArmature" index="0"]
+bones/2/position = Vector3(0, 0, 0.00483194)
+bones/4/rotation = Quaternion(3.46945e-18, 3.54715e-10, -0.00264005, 0.999997)
